@@ -1,6 +1,6 @@
 # Release KorFin ReleaseTest
 
-Started: 2025-11-25 09:14:16.768213
+Started: 2025-11-25 09:40:54.764273
 
 ```
 ###############################################################################
@@ -17,6 +17,6 @@ Scanning 'C:/Users/ThomasBeutlich/source/repos/Korfin_0/_korfin/xe.raumspline/'.
 DONE
 ```
 
-Finished: 2025-11-25 09:14:19.554233
+Finished: 2025-11-25 09:41:00.642373
 
-Release KorFin ReleaseTest done in 2.794s.
+Release KorFin ReleaseTest done in 5.885s.
