@@ -1,21 +1,99 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="KorFin CI Pipeline" tests="3" failures="0" errors="0" skipped="0" timestamp="2025-11-25T11:41:54.103695" time="6.810">
+<testsuite name="KorFin CI Pipeline" tests="18" failures="3" errors="0" skipped="0" timestamp="2025-11-25T11:49:33.738209" time="1779.278">
   <properties>
-    <property name="commit" value="44fc13d7ae6" />
+    <property name="commit" value="10457564c0" />
   </properties>
-  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="2.620">
+  <testcase name="Cleanup" classname="ci.pipeline" time="3.270">
     <properties>
-      <property name="log_file" value="20251125_114154_Release_KorFin_ReleaseTest.md" />
+      <property name="log_file" value="20251125_114933_Cleanup.md" />
     </properties>
   </testcase>
-  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="0.463">
+  <testcase name="Prepare KorFin" classname="ci.pipeline" time="49.945">
     <properties>
-      <property name="log_file" value="20251125_114156_Prepare_KorFin_Projects.md" />
+      <property name="log_file" value="20251125_114937_Prepare_KorFin.md" />
     </properties>
   </testcase>
-  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="3.362">
+  <testcase name="Build KorFin ReleaseTest" classname="ci.pipeline" time="194.183">
     <properties>
-      <property name="log_file" value="20251125_114157_Run_KorFin_Projects_TinyProject.md" />
+      <property name="log_file" value="20251125_115027_Build_KorFin_ReleaseTest.md" />
     </properties>
+  </testcase>
+  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="2.846">
+    <properties>
+      <property name="log_file" value="20251125_115341_Release_KorFin_ReleaseTest.md" />
+    </properties>
+  </testcase>
+  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="21.997">
+    <properties>
+      <property name="log_file" value="20251125_115344_Prepare_KorFin_Projects.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Sanity" classname="ci.pipeline" time="4.214">
+    <properties>
+      <property name="log_file" value="20251125_115406_Run_KorFin_Sanity.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="5.250">
+    <properties>
+      <property name="log_file" value="20251125_115410_Run_KorFin_Projects_TinyProject.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: Demoprojekt KF 4.7.1" classname="ci.pipeline" time="19.295">
+    <properties>
+      <property name="log_file" value="20251125_115416_Run_KorFin_Projects_Demoprojekt_KF_471.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: Demoprojekt KF 4.8.0" classname="ci.pipeline" time="45.011">
+    <properties>
+      <property name="log_file" value="20251125_115435_Run_KorFin_Projects_Demoprojekt_KF_480.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: Demoprojekt KF 4.8.1" classname="ci.pipeline" time="43.825">
+    <properties>
+      <property name="log_file" value="20251125_115520_Run_KorFin_Projects_Demoprojekt_KF_481.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: Testprojekt Schaufussstrasse 4.8.1" classname="ci.pipeline" time="18.826">
+    <properties>
+      <property name="log_file" value="20251125_115604_Run_KorFin_Projects_Testprojekt_Schaufussstrasse_481.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: Dortmund Hbf" classname="ci.pipeline" time="462.692">
+    <properties>
+      <property name="log_file" value="20251125_115623_Run_KorFin_Projects_Dortmund_Hbf.md" />
+    </properties>
+    <failure message="Step Run KorFin Projects: Dortmund Hbf failed" type="StepFailure" />
+  </testcase>
+  <testcase name="Run KorFin Projects: Gelnhausen Fulda Schall 4.8" classname="ci.pipeline" time="121.286">
+    <properties>
+      <property name="log_file" value="20251125_120405_Run_KorFin_Projects_Gelnhausen_Fulda_Schall_48.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: Gelnhausen Fulda Schall 4.9" classname="ci.pipeline" time="6.122">
+    <properties>
+      <property name="log_file" value="20251125_120607_Run_KorFin_Projects_Gelnhausen_Fulda_Schall_49.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: DB Bahnbau HLK HH-Bln" classname="ci.pipeline" time="332.119">
+    <properties>
+      <property name="log_file" value="20251125_120613_Run_KorFin_Projects_DB_Bahnbau_HLK_HH-Bln.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: IHT Hagen Hbf" classname="ci.pipeline" time="57.715">
+    <properties>
+      <property name="log_file" value="20251125_121145_Run_KorFin_Projects_IHT_Hagen_Hbf.md" />
+    </properties>
+    <failure message="Step Run KorFin Projects: IHT Hagen Hbf failed" type="StepFailure" />
+  </testcase>
+  <testcase name="Run KorFin Projects: DEGES A98 Abschnitt 6" classname="ci.pipeline" time="188.794">
+    <properties>
+      <property name="log_file" value="20251125_121243_Run_KorFin_Projects_DEGES_A98_Abschnitt_6.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: DEGES B1 B55 OU Erwitte" classname="ci.pipeline" time="201.199">
+    <properties>
+      <property name="log_file" value="20251125_121551_Run_KorFin_Projects_DEGES_B1_B55_OU_Erwitte.md" />
+    </properties>
+    <failure message="Step Run KorFin Projects: DEGES B1 B55 OU Erwitte failed" type="StepFailure" />
   </testcase>
 </testsuite>
