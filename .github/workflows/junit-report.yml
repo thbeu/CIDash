@@ -1,0 +1,66 @@
+name: JUnit Test Results
+
+on:
+  push:
+    branches: [ main, develop ]
+
+jobs:
+  test-results:
+    if: contains(github.event.head_commit.modified, 'junit.xml') || contains(github.event.head_commit.added, 'junit.xml')
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v5
+
+    - name: Find JUnit XML files in latest commit
+      id: find-junit
+      run: |
+        # Get files changed/added in the latest commit
+        changed_files=$(git diff --name-only HEAD~1 HEAD || git ls-files)
+
+        # Find junit.xml files among the changed files
+        junit_files=""
+        for file in $changed_files; do
+          if [[ "$(basename "$file")" == "junit.xml" ]] && [[ -f "$file" ]]; then
+            junit_files="$junit_files$file"$'\n'
+          fi
+        done
+
+        # Remove trailing newline
+        junit_files=$(echo "$junit_files" | sed '/^$/d')
+
+        if [ -n "$junit_files" ]; then
+          echo "junit_exists=true" >> $GITHUB_OUTPUT
+          echo "junit_paths<<EOF" >> $GITHUB_OUTPUT
+          echo "$junit_files" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          # Set the first found file as the primary path for backward compatibility
+          first_file=$(echo "$junit_files" | head -n1)
+          echo "junit_path=$first_file" >> $GITHUB_OUTPUT
+
+          echo "✅ Found JUnit XML file(s) in latest commit:"
+          echo "$junit_files"
+        else
+          echo "junit_exists=false" >> $GITHUB_OUTPUT
+          echo "❌ No junit.xml files found in the latest commit"
+        fi
+
+    - name: Display JUnit Test Results
+      if: steps.find-junit.outputs.junit_exists == 'true'
+      uses: dorny/test-reporter@v1
+      with:
+        name: 'CI Pipeline Test Results'
+        path: ${{ steps.find-junit.outputs.junit_path }}
+        reporter: 'java-junit'
+        fail-on-error: false
+        only-summary: false
+
+    - name: Upload JUnit Results as Artifact
+      if: steps.find-junit.outputs.junit_exists == 'true'
+      uses: actions/upload-artifact@v4
+      with:
+        name: junit-results
+        path: ${{ steps.find-junit.outputs.junit_path }}
+        retention-days: 30
