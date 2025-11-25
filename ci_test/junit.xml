@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="KorFin CI Pipeline" tests="3" failures="0" errors="0" skipped="0" timestamp="2025-11-25T08:41:59.225948" time="11.395">
-  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="6.177">
+<testsuite name="KorFin CI Pipeline" tests="3" failures="0" errors="0" skipped="0" timestamp="2025-11-25T08:45:52.895851" time="8.372">
+  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="2.835">
     <properties>
-      <property name="log_file" value="20251125_084159_Release_KorFin_ReleaseTest.md" />
+      <property name="log_file" value="20251125_084552_Release_KorFin_ReleaseTest.md" />
     </properties>
   </testcase>
-  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="0.676">
+  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="0.730">
     <properties>
-      <property name="log_file" value="20251125_084205_Prepare_KorFin_Projects.md" />
+      <property name="log_file" value="20251125_084556_Prepare_KorFin_Projects.md" />
     </properties>
   </testcase>
-  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="4.053">
+  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="4.292">
     <properties>
-      <property name="log_file" value="20251125_084206_Run_KorFin_Projects_TinyProject.md" />
+      <property name="log_file" value="20251125_084556_Run_KorFin_Projects_TinyProject.md" />
     </properties>
   </testcase>
 </testsuite>
