@@ -1,4 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="KorFin CI Pipeline" tests="1" failures="0" errors="0" skipped="0">
+<testsuite name="KorFin CI Pipeline" tests="3" failures="0" errors="0" skipped="0" timestamp="2025-11-25T09:00:46.286958" time="12.445">
   <properties>
-    <property name="commit"
+    <property name="commit" value="77975d7df0a" />
+  </properties>
+  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="3.848">
+    <properties>
+      <property name="log_file" value="20251125_090046_Release_KorFin_ReleaseTest.md" />
+    </properties>
+  </testcase>
+  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="0.687">
+    <properties>
+      <property name="log_file" value="20251125_090050_Prepare_KorFin_Projects.md" />
+    </properties>
+  </testcase>
+  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="7.494">
+    <properties>
+      <property name="log_file" value="20251125_090051_Run_KorFin_Projects_TinyProject.md" />
+    </properties>
+  </testcase>
+</testsuite>
