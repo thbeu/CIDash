@@ -1,8 +1,8 @@
-name: JUnit Test Results
+name: CI Test Results
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main ]
 
 jobs:
   test-results:
@@ -10,7 +10,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v5
-
+      with:
+        fetch-depth: 5
     - name: Check if junit.xml exists in commit
       id: check-junit
       run: |
