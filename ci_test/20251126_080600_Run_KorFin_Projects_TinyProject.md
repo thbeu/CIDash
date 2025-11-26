@@ -1,6 +1,6 @@
 # Run KorFin Projects: TinyProject
 
-Started: 2025-11-26 08:05:33.754214
+Started: 2025-11-26 08:06:00.969394
 
 ```
 Dump: Programmspezifische Modellierung "RS_DEFMOD_STRRES" geladen.
@@ -53,11 +53,11 @@ tests -> "repositoryroot:test_data/"
 testsExport -> "repositoryroot:test_data/_export/"
 user -> "C:/Users/ThomasBeutlich/Documents/"
 
-Application terminated after 2675 ms.
+Application terminated after 1711 ms.
 Dump: Projektspezifische Modellierungen wurden entladen.
 Dump: Projektspezifische Modellierungen wurden entladen.
 ```
 
-Finished: 2025-11-26 08:05:37.512520
+Finished: 2025-11-26 08:06:03.911502
 
-Run KorFin Projects: TinyProject done in 3.772s.
+Run KorFin Projects: TinyProject done in 2.956s.
