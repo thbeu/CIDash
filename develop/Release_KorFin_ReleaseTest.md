@@ -1,6 +1,6 @@
 # Release KorFin ReleaseTest
 
-Started: 2026-01-02 11:04:50.629062
+Started: 2026-01-02 11:24:21.610899
 
 ```
 ###############################################################################
@@ -29,6 +29,6 @@ C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/main.rb:119:in `<main>'
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ```
 
-Finished: 2026-01-02 11:04:51.102615
+Finished: 2026-01-02 11:24:22.068036
 
-[ERR] Release KorFin ReleaseTest failed after 0.483s with error: `Command '['C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/ruby/bin/ruby.exe', 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/main.rb', 'release(Platform:X64,Style:ReleaseTest,prj:KorFin,target:d:/TB/ci_work/_ci_release)', 'close']' returned non-zero exit status 4294967295.`
+[ERR] Release KorFin ReleaseTest failed after 0.467s with error: `Command '['C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/ruby/bin/ruby.exe', 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/main.rb', 'release(Platform:X64,Style:ReleaseTest,prj:KorFin,target:d:/TB/ci_work/_ci_release)', 'close']' returned non-zero exit status 4294967295.`

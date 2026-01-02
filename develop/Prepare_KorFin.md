@@ -1,6 +1,6 @@
 # Prepare KorFin
 
-Started: 2026-01-02 11:03:08.328125
+Started: 2026-01-02 11:21:42.390784
 
 ```
 ..........................................................................
@@ -61,38 +61,38 @@ Prepare Resources...
 Building 9 Resources...
 Build Resource 'Fahrzeug-RÃ¼ckhaltesysteme'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\RoadSafetyBarrier\RoadSafetyBarrier.libxml "Fahrzeug-RÃ¼ckhaltesysteme" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 4976 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 6420 exit 0 COMPLETED.
 Build Resource 'Fundamente'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\Basement\Foundation.libxml "Fundamente" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 25348 exit 0 COMPLETED.
-Build Resource 'apprs'
-Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LOCA C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\rsres\apprs\apprs.rsb "apprs.res" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 25936 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 8412 exit 0 COMPLETED.
 Build Resource 'POI'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\POI\POI.libxml "POI" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 10264 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 27012 exit 0 COMPLETED.
+Build Resource 'apprs'
+Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LOCA C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\rsres\apprs\apprs.rsb "apprs.res" .'
+Exit code: 0, Success: true, System return: true, Run info: pid 7680 exit 0 COMPLETED.
 Build Resource 'A+S Schriftsatz'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\Schriftsatz\Schriftsatz.libxml "A+S Schriftsatz" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 17748 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 14924 exit 0 COMPLETED.
 Build Resource 'appres'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LOCA C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\rsres\appres\appres.rsb "appres.res" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 25644 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 27728 exit 0 COMPLETED.
 Build Resource 'Infrastruktur'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\Infrastructure\Infrastructure.libxml "Infrastruktur" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 14108 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 20248 exit 0 COMPLETED.
 Build Resource 'Bewuchs'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\Tree\Tree.libxml "Bewuchs" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 25636 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 28620 exit 0 COMPLETED.
 Build Resource 'A+S Freileitung'
 Run command: 'C:\Users\ThomasBeutlich\source\repos\Korfin_3\regenerate\tools\resmaker\resmaker_4_9.exe GENERATE_LIB C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\_shared_resources\\work\libs\app3dpp\app3dpp.libxml "A+S Freileitung" .'
-Exit code: 0, Success: true, System return: true, Run info: pid 14688 exit 0 COMPLETED.
+Exit code: 0, Success: true, System return: true, Run info: pid 28352 exit 0 COMPLETED.
 Copy Resources...
 ...............................................................................
 ...............................................................................
-START 02.Jan.2026 11:03:09
-ENDED 02.Jan.2026 11:04:14
-TIME  1 Minutes and 4 Seconds
-   - Build Resources: 64.508634 Seconds
+START 02.Jan.2026 11:21:46
+ENDED 02.Jan.2026 11:23:01
+TIME  1 Minutes and 14 Seconds
+   - Build Resources: 74.677491 Seconds
 ###############################################################################
 DONE
 ###############################################################################
@@ -100,6 +100,6 @@ DONE
 DONE
 ```
 
-Finished: 2026-01-02 11:04:14.296463
+Finished: 2026-01-02 11:23:01.485019
 
-Prepare KorFin done in 65.968s.
+Prepare KorFin done in 79.104s.

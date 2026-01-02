@@ -1,6 +1,6 @@
 # Build KorFin ReleaseTest
 
-Started: 2026-01-02 11:04:14.411791
+Started: 2026-01-02 11:23:01.565682
 
 ```
 ###############################################################################
@@ -15,21 +15,27 @@ Auto detected source path '_korfin/xe.raumspline/'.
 Scanning 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/'...
 Collect Project 'djinee.full|Style:ReleaseTest|Platform:X64|PSheme:Sentinel|Runtime:Native Runtime'
 Collect Project 'bagel|Style:ReleaseTest|Platform:X64|PSheme:Sentinel|Runtime:Native Runtime'
-Generate projects............................
-1.913sec to create VS projects........
-1.310sec to create XE projects
+Generate projects..........
+Write 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/_build/_prj/controls/project_info.cs'..............
+Write 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/_build/_prj/bagel/project_info.cs'....
+Write 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/_build/_prj/djinee.full/project_info.cc'......
+1.943sec to create VS projects.
+Write 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/_build/_prj/xe.core/VersionInfo.rc'.....
+Write 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/_build/_prj/KorFin/UProjectInfo.pas'...
+Write 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/_korfin/xe.raumspline/_build/_prj/KorFin/VersionInfo.rc'.....
+1.327sec to create XE projects
 Localize Projects...............
-0.353sec to localize projects
+2.931sec to localize projects
 Building
 Building project 'KorFin|Style:ReleaseTest|Platform:X64|PSheme:Sentinel|Runtime:Native Runtime'
 000.........|.........|.........|.........|.........|.........|.........|.........
-001.........|.........|.........|.........|
+001.........|.........|.........|.........|.........|.........
 Building project 'djinee.full|Style:ReleaseTest|Platform:X64|PSheme:Sentinel|Runtime:Native Runtime'
 000.........|.........|.........|.........|.........|.........|.........|.........
 001.........|.........|.........|.........|.........|.........|.........|.........
 002.........|.........|.........|.........|.........|.........|.........|.........
 003.........|.........|.........|.........|.........|.........|.........|.........
-004.........|.........|.........|...
+004.........|.........|.........|.
 
 .............................................................................
 MSBuild /m /t:Build /p:Configuration="reltest";Platform="x64" C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj /p:PreferredToolArchitecture=x64
@@ -41,10 +47,18 @@ MSBuild /m /t:Build /p:Configuration="reltest";Platform="x64" C:\Users\ThomasBeu
 **********************************************************************
 [vcvarsall.bat] Environment initialized for: 'x64'
 MSBuild-Version 17.14.23+b0019275e fÃ¼r .NET Framework
-Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
+Der Buildvorgang wurde am 02.01.2026 11:24:12 gestartet.
 
      1>Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" auf Knoten "1", Build Ziel(e).
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\sentinel\sentinel.vcxproj" (3) auf Knoten "4" (Standardziele).
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\nine\nine.vcxproj" (5) auf Knoten "7" (Standardziele).
+     5>PrepareForBuild:
+         Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         "..\..\obj\nine_x64_release_sentinel\\nine.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         Aktualisieren des Timestamps von "..\..\obj\nine_x64_release_sentinel\\nine.tlog\unsuccessfulbuild".
+       SHADER_Compile_ToCode:
+       Das Ziel "SHADER_Compile_ToCode" wird Ã¼bersprungen, da alle Ausgabedateien hinsichtlich der Eingabedateien aktuell sind.
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\sentinel\sentinel.vcxproj" (3) auf Knoten "8" (Standardziele).
      3>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
        InitializeBuildStatus:
@@ -52,71 +66,49 @@ Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
          Aktualisieren des Timestamps von "..\..\obj\sentinel_x64_release_sentinel\\sentinel.tlog\unsuccessfulbuild".
        SHADER_Compile_ToCode:
        Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
-       ClCompile:
-         Alle Ausgaben sind aktuell.
-       Lib:
-         Alle Ausgaben sind aktuell.
-         sentinel.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\sentinel.x64.lib
-       FinalizeBuildStatus:
-         Die Datei "..\..\obj\sentinel_x64_release_sentinel\\sentinel.tlog\unsuccessfulbuild" wird gelÃ¶scht.
-         Aktualisieren des Timestamps von "..\..\obj\sentinel_x64_release_sentinel\\sentinel.tlog\sentinel.lastbuildstate".
-     3>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\sentinel\sentinel.vcxproj" ist abgeschlossen (Standardziele).
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\stone\stone.vcxproj" (5) auf Knoten "7" (Standardziele).
-     5>PrepareForBuild:
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\park\park.vcxproj" (9) auf Knoten "3" (Standardziele).
+     9>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-       InitializeBuildStatus:
-         "..\..\obj\stone_x64_release_sentinel\\stone.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-         Aktualisieren des Timestamps von "..\..\obj\stone_x64_release_sentinel\\stone.tlog\unsuccessfulbuild".
-       SHADER_Compile_ToCode:
-       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\quell\quell.vcxproj" (6) auf Knoten "3" (Standardziele).
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ramp\ramp.vcxproj" (8) auf Knoten "5" (Standardziele).
+     8>PrepareForBuild:
+         Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\quell\quell.vcxproj" (6) auf Knoten "9" (Standardziele).
      6>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-       InitializeBuildStatus:
+     8>InitializeBuildStatus:
+         "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         Aktualisieren des Timestamps von "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\unsuccessfulbuild".
+     9>InitializeBuildStatus:
+         "..\..\obj\park_x64_release_sentinel\\park.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         Aktualisieren des Timestamps von "..\..\obj\park_x64_release_sentinel\\park.tlog\unsuccessfulbuild".
+     8>SHADER_Compile_ToCode:
+       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
+     9>SHADER_Compile_ToCode:
+       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
+     6>InitializeBuildStatus:
          "..\..\obj\quell_x64_release_sentinel\\quell.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
          Aktualisieren des Timestamps von "..\..\obj\quell_x64_release_sentinel\\quell.tlog\unsuccessfulbuild".
        SHADER_Compile_ToCode:
        Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
        Compile_SAL:
          Compiling Save and Load '..\..\..\..\..\_next\fusion2\code\quell\sal\base.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\building.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cables.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cloud.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cycle.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\framework.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\geology.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\geometry.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\kfmnext.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\korfin_container.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\leistungsverzeichnis.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\object_tree.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\power.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\projects.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\route.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\test.sal'...
-         ..\..\..\..\..\regenerate\ruby\bin\ruby.exe ..\..\..\..\..\regenerate\tools\sal.rb --projectDir=C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\quell\ --files ..\..\..\..\..\_next\fusion2\code\quell\sal\base.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\building.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cables.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cloud.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cycle.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\framework.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\geology.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\geometry.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\kfmnext.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\korfin_container.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\leistungsverzeichnis.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\object_tree.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\power.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\projects.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\route.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\test.sal
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ramp\ramp.vcxproj" (7) auf Knoten "10" (Standardziele).
-     7>PrepareForBuild:
-         Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-       InitializeBuildStatus:
-         "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-         Aktualisieren des Timestamps von "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\unsuccessfulbuild".
-       SHADER_Compile_ToCode:
-       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
-       PreBuildEvent:
+     8>PreBuildEvent:
          C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/ramp/sr_ramp/protection_codemeter.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/ramp/sr_ramp/protection_sentinel.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/ramp/sr_ramp/runtime.ids
          :VCEnd
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\park\park.vcxproj" (8) auf Knoten "8" (Standardziele).
-     8>PrepareForBuild:
-         Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-     5>ClCompile:
-         Alle Ausgaben sind aktuell.
-     8>InitializeBuildStatus:
-         "..\..\obj\park_x64_release_sentinel\\park.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-         Aktualisieren des Timestamps von "..\..\obj\park_x64_release_sentinel\\park.tlog\unsuccessfulbuild".
-       SHADER_Compile_ToCode:
-       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
-       PreBuildEvent:
+     9>PreBuildEvent:
          C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/park/sr_park/api_cycle.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/park/sr_park/geodesy.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/park/sr_park/korfin_sdk.ids
          :VCEnd
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\nine\nine.vcxproj" (9) auf Knoten "9" (Standardziele).
-     9>PrepareForBuild:
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\stone\stone.vcxproj" (7) auf Knoten "10" (Standardziele).
+     7>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-       InitializeBuildStatus:
-         "..\..\obj\nine_x64_release_sentinel\\nine.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-         Aktualisieren des Timestamps von "..\..\obj\nine_x64_release_sentinel\\nine.tlog\unsuccessfulbuild".
+     6>Compile_SAL:
+         ..\..\..\..\..\regenerate\ruby\bin\ruby.exe ..\..\..\..\..\regenerate\tools\sal.rb --projectDir=C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\quell\ --files ..\..\..\..\..\_next\fusion2\code\quell\sal\base.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\building.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cables.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cloud.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\cycle.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\framework.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\geology.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\geometry.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\kfmnext.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\korfin_container.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\leistungsverzeichnis.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\object_tree.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\power.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\projects.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\route.sal;..\..\..\..\..\_next\fusion2\code\quell\sal\test.sal
+     7>InitializeBuildStatus:
+         "..\..\obj\stone_x64_release_sentinel\\stone.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         Aktualisieren des Timestamps von "..\..\obj\stone_x64_release_sentinel\\stone.tlog\unsuccessfulbuild".
        SHADER_Compile_ToCode:
-       Das Ziel "SHADER_Compile_ToCode" wird Ã¼bersprungen, da alle Ausgabedateien hinsichtlich der Eingabedateien aktuell sind.
-     5>ClCompile:
-         Alle Ausgaben sind aktuell.
-       Lib:
-         Alle Ausgaben sind aktuell.
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ogis\ogis.vcxproj" (10) auf Knoten "5" (Standardziele).
+       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ogis\ogis.vcxproj" (10) auf Knoten "4" (Standardziele).
     10>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
        InitializeBuildStatus:
@@ -127,52 +119,70 @@ Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
        PreBuildEvent:
          C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/ogis/sr_ogis/ogis.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/ogis/sr_ogis/route.ids
          :VCEnd
-     5>Lib:
-         stone.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.stone.x64.lib
-     9>ClCompile:
-         Alle Ausgaben sind aktuell.
-     5>FinalizeBuildStatus:
-         Die Datei "..\..\obj\stone_x64_release_sentinel\\stone.tlog\unsuccessfulbuild" wird gelÃ¶scht.
-         Aktualisieren des Timestamps von "..\..\obj\stone_x64_release_sentinel\\stone.tlog\stone.lastbuildstate".
-     5>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\stone\stone.vcxproj" ist abgeschlossen (Standardziele).
-     7>ClCompile:
-         Alle Ausgaben sind aktuell.
-     9>ClCompile:
+     3>ClCompile:
          Alle Ausgaben sind aktuell.
        Lib:
          Alle Ausgaben sind aktuell.
+         sentinel.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\sentinel.x64.lib
+       FinalizeBuildStatus:
+         Die Datei "..\..\obj\sentinel_x64_release_sentinel\\sentinel.tlog\unsuccessfulbuild" wird gelÃ¶scht.
+         Aktualisieren des Timestamps von "..\..\obj\sentinel_x64_release_sentinel\\sentinel.tlog\sentinel.lastbuildstate".
+     3>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\sentinel\sentinel.vcxproj" ist abgeschlossen (Standardziele).
      7>ClCompile:
+         Alle Ausgaben sind aktuell.
+     5>ClCompile:
+         Alle Ausgaben sind aktuell.
+     7>ClCompile:
+         Alle Ausgaben sind aktuell.
+       Lib:
+         Alle Ausgaben sind aktuell.
+         stone.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.stone.x64.lib
+     5>ClCompile:
+         Alle Ausgaben sind aktuell.
+     9>ClCompile:
          Alle Ausgaben sind aktuell.
      8>ClCompile:
          Alle Ausgaben sind aktuell.
-     9>Lib:
-         nine.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.nine.x64.lib
-     7>Lib:
+     7>FinalizeBuildStatus:
+         Die Datei "..\..\obj\stone_x64_release_sentinel\\stone.tlog\unsuccessfulbuild" wird gelÃ¶scht.
+         Aktualisieren des Timestamps von "..\..\obj\stone_x64_release_sentinel\\stone.tlog\stone.lastbuildstate".
+     7>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\stone\stone.vcxproj" ist abgeschlossen (Standardziele).
+     5>Lib:
          Alle Ausgaben sind aktuell.
-         ramp.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.ramp.x64.lib
-     9>FinalizeBuildStatus:
+         nine.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.nine.x64.lib
+     8>ClCompile:
+         Alle Ausgaben sind aktuell.
+     5>FinalizeBuildStatus:
          Die Datei "..\..\obj\nine_x64_release_sentinel\\nine.tlog\unsuccessfulbuild" wird gelÃ¶scht.
          Aktualisieren des Timestamps von "..\..\obj\nine_x64_release_sentinel\\nine.tlog\nine.lastbuildstate".
-     9>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\nine\nine.vcxproj" ist abgeschlossen (Standardziele).
+     5>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\nine\nine.vcxproj" ist abgeschlossen (Standardziele).
+     8>Lib:
+         Alle Ausgaben sind aktuell.
      1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\grand\grand.vcxproj" (4) auf Knoten "6" (Standardziele).
      4>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-     7>FinalizeBuildStatus:
-         Die Datei "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\unsuccessfulbuild" wird gelÃ¶scht.
-         Aktualisieren des Timestamps von "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\ramp.lastbuildstate".
-     4>InitializeBuildStatus:
-         "..\..\obj\grand_x64_release_sentinel\\grand.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-         Aktualisieren des Timestamps von "..\..\obj\grand_x64_release_sentinel\\grand.tlog\unsuccessfulbuild".
-     7>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ramp\ramp.vcxproj" ist abgeschlossen (Standardziele).
-     4>SHADER_Compile_ToCode:
-       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
-       PreBuildEvent:
-         C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/grand/sr_grand/grand_framework.ids
-         :VCEnd
+     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\drain\drain.vcxproj" (2) auf Knoten "1" (Standardziele).
+     2>PrepareForBuild:
+         Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
      1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\dust\dust.vcxproj" (11) auf Knoten "2" (Standardziele).
     11>PrepareForBuild:
          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-       InitializeBuildStatus:
+     4>InitializeBuildStatus:
+         "..\..\obj\grand_x64_release_sentinel\\grand.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         Aktualisieren des Timestamps von "..\..\obj\grand_x64_release_sentinel\\grand.tlog\unsuccessfulbuild".
+       SHADER_Compile_ToCode:
+       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
+     2>InitializeBuildStatus:
+         "..\..\obj\drain_x64_release_sentinel\\drain.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+         Aktualisieren des Timestamps von "..\..\obj\drain_x64_release_sentinel\\drain.tlog\unsuccessfulbuild".
+       SHADER_Compile_ToCode:
+       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
+     4>PreBuildEvent:
+         C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/grand/sr_grand/grand_framework.ids
+         :VCEnd
+     8>Lib:
+         ramp.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.ramp.x64.lib
+    11>InitializeBuildStatus:
          "..\..\obj\dust_x64_release_sentinel\\dust.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
          Aktualisieren des Timestamps von "..\..\obj\dust_x64_release_sentinel\\dust.tlog\unsuccessfulbuild".
        SHADER_Compile_ToCode:
@@ -180,56 +190,51 @@ Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
        PreBuildEvent:
          C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/bim_commands.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/cycle.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/dust_framework.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/dust_profileeditor.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/ground.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/kfm_next.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/kfmnext.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/pointcloud.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/power.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/routes.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/sonic.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/tetrahedron.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/dust/sr_dust/vegetation.ids
          :VCEnd
-     1>Das Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\djinee.full\djinee.full.vcxproj" (1) erstellt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\drain\drain.vcxproj" (2) auf Knoten "1" (Standardziele).
-     2>PrepareForBuild:
-         Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-       InitializeBuildStatus:
-         "..\..\obj\drain_x64_release_sentinel\\drain.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-         Aktualisieren des Timestamps von "..\..\obj\drain_x64_release_sentinel\\drain.tlog\unsuccessfulbuild".
-     8>ClCompile:
+     9>ClCompile:
          Alle Ausgaben sind aktuell.
-     2>SHADER_Compile_ToCode:
-       Das SHADER_Compile_ToCode-Ziel wird Ã¼bersprungen, da es keine Eingaben besitzt.
     10>ClCompile:
          Alle Ausgaben sind aktuell.
-     8>Lib:
+     8>FinalizeBuildStatus:
+         Die Datei "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\unsuccessfulbuild" wird gelÃ¶scht.
+         Aktualisieren des Timestamps von "..\..\obj\ramp_x64_release_sentinel\\ramp.tlog\ramp.lastbuildstate".
+     8>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ramp\ramp.vcxproj" ist abgeschlossen (Standardziele).
+     9>Lib:
          Alle Ausgaben sind aktuell.
          park.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.park.x64.lib
        FinalizeBuildStatus:
          Die Datei "..\..\obj\park_x64_release_sentinel\\park.tlog\unsuccessfulbuild" wird gelÃ¶scht.
          Aktualisieren des Timestamps von "..\..\obj\park_x64_release_sentinel\\park.tlog\park.lastbuildstate".
-     8>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\park\park.vcxproj" ist abgeschlossen (Standardziele).
+     9>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\park\park.vcxproj" ist abgeschlossen (Standardziele).
      2>ClCompile:
          Alle Ausgaben sind aktuell.
-    10>ClCompile:
          Alle Ausgaben sind aktuell.
-     4>ClCompile:
-         Alle Ausgaben sind aktuell.
-     2>ClCompile:
-         Alle Ausgaben sind aktuell.
-     4>ClCompile:
-         Alle Ausgaben sind aktuell.
-     2>Lib:
+       Lib:
          Alle Ausgaben sind aktuell.
          drain.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.drain.x64.lib
-     4>Lib:
+    10>ClCompile:
+         Alle Ausgaben sind aktuell.
+     2>FinalizeBuildStatus:
+         Die Datei "..\..\obj\drain_x64_release_sentinel\\drain.tlog\unsuccessfulbuild" wird gelÃ¶scht.
+         Aktualisieren des Timestamps von "..\..\obj\drain_x64_release_sentinel\\drain.tlog\drain.lastbuildstate".
+     2>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\drain\drain.vcxproj" ist abgeschlossen (Standardziele).
+     4>ClCompile:
+         Alle Ausgaben sind aktuell.
+    10>Lib:
+         Alle Ausgaben sind aktuell.
+     4>ClCompile:
+         Alle Ausgaben sind aktuell.
+       Lib:
          Alle Ausgaben sind aktuell.
          grand.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.grand.x64.lib
        FinalizeBuildStatus:
          Die Datei "..\..\obj\grand_x64_release_sentinel\\grand.tlog\unsuccessfulbuild" wird gelÃ¶scht.
          Aktualisieren des Timestamps von "..\..\obj\grand_x64_release_sentinel\\grand.tlog\grand.lastbuildstate".
-     2>FinalizeBuildStatus:
-         Die Datei "..\..\obj\drain_x64_release_sentinel\\drain.tlog\unsuccessfulbuild" wird gelÃ¶scht.
-         Aktualisieren des Timestamps von "..\..\obj\drain_x64_release_sentinel\\drain.tlog\drain.lastbuildstate".
-     2>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\drain\drain.vcxproj" ist abgeschlossen (Standardziele).
      4>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\grand\grand.vcxproj" ist abgeschlossen (Standardziele).
     10>Lib:
-         Alle Ausgaben sind aktuell.
+         ogis.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.ogis.x64.lib
     11>ClCompile:
          Alle Ausgaben sind aktuell.
-    10>Lib:
-         ogis.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.ogis.x64.lib
-       FinalizeBuildStatus:
+    10>FinalizeBuildStatus:
          Die Datei "..\..\obj\ogis_x64_release_sentinel\\ogis.tlog\unsuccessfulbuild" wird gelÃ¶scht.
          Aktualisieren des Timestamps von "..\..\obj\ogis_x64_release_sentinel\\ogis.tlog\ogis.lastbuildstate".
     10>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\ogis\ogis.vcxproj" ist abgeschlossen (Standardziele).
@@ -237,6 +242,11 @@ Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
          Alle Ausgaben sind aktuell.
        Lib:
          Alle Ausgaben sind aktuell.
+         dust.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.dust.x64.lib
+       FinalizeBuildStatus:
+         Die Datei "..\..\obj\dust_x64_release_sentinel\\dust.tlog\unsuccessfulbuild" wird gelÃ¶scht.
+         Aktualisieren des Timestamps von "..\..\obj\dust_x64_release_sentinel\\dust.tlog\dust.lastbuildstate".
+    11>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\dust\dust.vcxproj" ist abgeschlossen (Standardziele).
      6>Compile_SAL:
          -------------------------------------------------------------------------
          Save&Load Compiler.
@@ -244,15 +254,8 @@ Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
        PreBuildEvent:
          C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/tools/loca.exe -generateTokenFiles -idsFiles C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/quell/sr_quell/enums.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/quell/sr_quell/quell_framework.ids C:/Users/ThomasBeutlich/source/repos/Korfin_3/_next/fusion2/code/quell/sr_quell/quell_protocol.ids
          :VCEnd
-    11>Lib:
-         dust.vcxproj -> C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\bin\AplusS.dust.x64.lib
-     6>ClCompile:
+       ClCompile:
          Alle Ausgaben sind aktuell.
-    11>FinalizeBuildStatus:
-         Die Datei "..\..\obj\dust_x64_release_sentinel\\dust.tlog\unsuccessfulbuild" wird gelÃ¶scht.
-         Aktualisieren des Timestamps von "..\..\obj\dust_x64_release_sentinel\\dust.tlog\dust.lastbuildstate".
-    11>Die Erstellung von Projekt "C:\Users\ThomasBeutlich\source\repos\Korfin_3\_korfin\xe.raumspline\_build\_prj\dust\dust.vcxproj" ist abgeschlossen (Standardziele).
-     6>ClCompile:
          Alle Ausgaben sind aktuell.
        Lib:
          Alle Ausgaben sind aktuell.
@@ -281,7 +284,8 @@ Der Buildvorgang wurde am 02.01.2026 11:04:43 gestartet.
          :VCEnd
        ClCompile:
          Alle Ausgaben sind aktuell.
-         Alle Ausgaben sind aktuell.
+         C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /I.\ /I..\..\..\..\..\_next\fusion2\code\djinee /I..\..\..\..\..\_next\fusion2\code\drain /I..\..\..\..\..\_next\fusion2\code\dust /I..\..\..\..\..\_next\fusion2\code\grand /I..\..\..\..\..\_next\fusion2\code\nine /I..\..\..\..\..\_next\fusion2\code\nine\oryol /I..\..\..\..\..\_next\fusion2\code\ogis /I..\..\..\..\..\_next\fusion2\code\park /I..\..\..\..\..\_next\fusion2\code\quell /I..\..\..\..\..\_next\fusion2\code\ramp /I..\..\..\..\..\_next\fusion2\code\stone /I..\..\..\..\..\_libs\pugixml\code /I..\..\..\..\..\_libs\libminizip\code /I..\..\..\..\..\_libs\zlib\code\zlib /I..\..\..\..\..\_libs\sentinel\code /I..\..\..\..\..\_libs\visit_struct\code\include /I..\quell\quell\ /I..\..\..\..\..\_libs\crunch\code\inc /I..\..\..\..\..\_libs\freeimage\code /I..\..\..\..\..\_libs\clipper\code /I..\..\..\..\..\_libs\pdfium\code\pdfium\include /I..\..\..\..\..\_libs\tcl\code /I..\..\..\..\..\_libs\sqlitecpp\code /I"..\..\..\..\..\_libs\cpp-httplib\code\include" /I..\..\..\..\..\_libs\openssl\code\openssl\include /I..\..\..\..\..\_libs\ecwdll\code /I..\..\..\..\..\_libs\opencascade\code\opencascade /I..\..\..\..\..\_libs\opencascade\code\opencascade\include /I..\..\..\..\..\_libs\shapelib\code /I..\..\..\..\..\_libs\libE57Format\code /I..\..\..\..\..\_libs\liblaszip\code\dll /I..\..\..\..\..\_libs\glm\code /I..\nine\shaders\ /I"..\..\..\..\..\_libs\yaml-cpp\code\include" /I.\djinee\export\ /Zi /nologo /W4 /WX- /diagnostics:column /MP /Ox /Ob2 /Oi /Ot /GL /D DJINEE_AREAS /D DJINEE_BAGEL /D DJINEE_BIM /D DJINEE_BUILDINGS /D DJINEE_COMMENTS /D DJINEE_CORE /D DJINEE_CYCLE /D DJINEE_DA /D DJINEE_DATABASE /D DJINEE_DATADUMP /D DJINEE_DGMTEX /D DJINEE_ENGINE_CORE /D DJINEE_ENGINE_FUSION /D DJINEE_ENGINE_KFE /D DJINEE_ENV /D DJINEE_EVENTER /D DJINEE_FRAMEWORK /D DJINEE_FREE /D DJINEE_GEODESY /D DJINEE_GEOMETRY /D DJINEE_GEOPKG /D DJINEE_GROUND /D DJINEE_IFC /D DJINEE_IMAGES /D DJINEE_IO /D DJINEE_KF_CSV /D DJINEE_KF_RESOURCES /D DJINEE_KIB /D DJINEE_LANDXML /D DJINEE_LK /D DJINEE_LOCA /D DJINEE_LOG /D DJINEE_LV /D DJINEE_MAGIS /D DJINEE_MATH /D DJINEE_MEDIA /D DJINEE_NET /D DJINEE_PET /D DJINEE_PLAN /D DJINEE_POINTCLOUD /D DJINEE_POINTCLOUD_KFE /D DJINEE_PORTBASE /D DJINEE_POWER /D DJINEE_ROUTE /D DJINEE_SDK /D DJINEE_SHAPE /D DJINEE_SONIC /D DJINEE_TERRAIN /D DJINEE_TYPES /D DJINEE_VISSIM /D DJINEE_XE_CORE /D DJINEE_CINEMA /D DJINEE_GEOREFIMAGES /D DJINEE_GIST /D DJINEE_KFMNEXT /D DJINEE_MODELING /D DJINEE_OBJECTLIB /D DJINEE_POINTS /D DJINEE_PROFILES /D DJINEE_TRANSLATION /D DJINEE_UTILITIES /D DJINEE_VEGETATION /D APLUSS_P_SENTINEL /D VS2022 /D PLATFORM_X64 /D PLATFORM_NATIVE /D RELEASE /D NDEBUG /D RELEASE_TEST /D _HAS_EXCEPTIONS=1 /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /std:c++20 /Fo"..\..\obj\djinee.full_x64_release_sentinel\\" /Fd"..\..\obj\djinee.full_x64_release_sentinel\\\AplusS.djinee.full.x64.pdb" /external:W4 /Gd /TP /FC /errorReport:queue /bigobj /we4002 /we4003 project_info.cc
+         project_info.cc
          Alle Ausgaben sind aktuell.
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"..\..\..\bin\AplusS.djinee.full.x64.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\..\..\_libs\libminizip\lib\release64 /LIBPATH:..\..\..\..\..\_libs\zlib\lib\release64 /LIBPATH:..\..\..\..\..\_libs\sentinel\lib\x64 /LIBPATH:..\..\..\..\..\_libs\crunch\lib\release64 /LIBPATH:..\..\..\..\..\_libs\freeimage\lib\release64 /LIBPATH:..\..\..\..\..\_libs\clipper\lib\release64 /LIBPATH:..\..\..\..\..\_libs\pdfium\lib\release64 /LIBPATH:..\..\..\..\..\_libs\tcl\lib\release64 /LIBPATH:..\..\..\..\..\_libs\sqlitecpp\lib\release64 /LIBPATH:..\..\..\..\..\_libs\openssl\lib\release64 /LIBPATH:..\..\..\..\..\_libs\ecwdll\lib\release64 /LIBPATH:..\..\..\..\..\_libs\opencascade\lib\release64 /LIBPATH:..\..\..\..\..\_libs\shapelib\lib\release64 /LIBPATH:..\..\..\..\..\_libs\libE57Format\lib\release64 /LIBPATH:..\..\..\..\..\_libs\liblaszip\lib\release64 /LIBPATH:"..\..\..\..\..\_libs\yaml-cpp\lib\release64" MSCorEE.lib dxgi.lib d2d1.lib dwrite.lib d3d11.lib d3d9.lib GlU32.lib psapi.lib ws2_32.lib rpcrt4.lib libminizip.x64.lib zlib.x64.lib libhasp_windows_x64_110651.lib crnlib.x64.lib fi.freeimage.x64.lib fi.libjpeg.x64.lib fi.libopenjpeg.x64.lib fi.libpng.x64.lib fi.libtiff4.x64.lib clipperlib.x64.lib pdfium.x64.lib tcl.x64.lib sqlitecpp.x64.lib sqlite3.x64.lib "libssl-3.x64.lib" "libcrypto-3.x64.lib" ecwdll.x64.lib opencascade.x64.lib shapelib.x64.lib e57dll.x64.lib liblaszip.x64.lib "yaml-cpp.x64.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"..\..\..\bin\AplusS.djinee.full.x64.pdb" /OPT:REF /OPT:ICF /LTCG /LTCGOUT:"..\..\obj\djinee.full_x64_release_sentinel\\AplusS.djinee.full.x64.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\AplusS.djinee.full.x64.lib" /MACHINE:X64 /DLL ..\..\obj\djinee.full_x64_release_sentinel\\project_info.obj
@@ -380,7 +384,7 @@ Fehler beim Buildvorgang.
     0 Warnung(en)
     2 Fehler
 
-Verstrichene Zeit 00:00:06.74
+Verstrichene Zeit 00:00:08.82
 
 
 .............................................................................
@@ -402,6 +406,6 @@ C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/main.rb:119:in `<main>'
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ```
 
-Finished: 2026-01-02 11:04:50.518045
+Finished: 2026-01-02 11:24:21.515595
 
-[ERR] Build KorFin ReleaseTest failed after 36.116s with error: `Command '['C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/ruby/bin/ruby.exe', 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/main.rb', 'build(Platform:X64,Style:ReleaseTest,prj:KorFin)', 'close']' returned non-zero exit status 4294967295.`
+[ERR] Build KorFin ReleaseTest failed after 79.961s with error: `Command '['C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/ruby/bin/ruby.exe', 'C:/Users/ThomasBeutlich/source/repos/Korfin_3/regenerate/main.rb', 'build(Platform:X64,Style:ReleaseTest,prj:KorFin)', 'close']' returned non-zero exit status 4294967295.`

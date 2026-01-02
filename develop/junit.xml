@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="KorFin CI Pipeline" tests="6" failures="4" errors="0" skipped="0" timestamp="2026-01-02T11:03:08.169999" time="103.858">
+<testsuite name="KorFin CI Pipeline" tests="6" failures="4" errors="0" skipped="0" timestamp="2026-01-02T11:21:42.231388" time="161.347">
   <properties>
-    <property name="commit" value="d4a127807c" />
+    <property name="commit" value="35bc8c3247" />
   </properties>
-  <testcase name="Prepare KorFin" classname="ci.pipeline" time="65.968">
+  <testcase name="Prepare KorFin" classname="ci.pipeline" time="79.104">
     <properties>
       <property name="log_file" value="Prepare_KorFin.md" />
     </properties>
   </testcase>
-  <testcase name="Build KorFin ReleaseTest" classname="ci.pipeline" time="36.116">
+  <testcase name="Build KorFin ReleaseTest" classname="ci.pipeline" time="79.961">
     <properties>
       <property name="log_file" value="Build_KorFin_ReleaseTest.md" />
     </properties>
     <failure message="Step Build KorFin ReleaseTest failed" type="StepFailure" />
   </testcase>
-  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="0.483">
+  <testcase name="Release KorFin ReleaseTest" classname="ci.pipeline" time="0.467">
     <properties>
       <property name="log_file" value="Release_KorFin_ReleaseTest.md" />
     </properties>
     <failure message="Step Release KorFin ReleaseTest failed" type="StepFailure" />
   </testcase>
-  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="0.517">
+  <testcase name="Prepare KorFin Projects" classname="ci.pipeline" time="1.075">
     <properties>
       <property name="log_file" value="Prepare_KorFin_Projects.md" />
     </properties>
@@ -31,7 +31,7 @@
     </properties>
     <failure message="Step Run KorFin Sanity failed" type="StepFailure" />
   </testcase>
-  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="0.011">
+  <testcase name="Run KorFin Projects: TinyProject" classname="ci.pipeline" time="0.010">
     <properties>
       <property name="log_file" value="Run_KorFin_Projects_TinyProject.md" />
     </properties>
